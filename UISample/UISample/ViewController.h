@@ -13,3 +13,8 @@
 
 @end
 
+@interface ViewController(PropertyTest)
+
+@property(nonatomic,strong) NSString* name;
+
+@end
