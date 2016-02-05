@@ -28,6 +28,7 @@
     view.bounds = CGRectMake(20, 20, 160, 260);
     //子view超出bounds部分是否裁剪
     view.clipsToBounds = YES;
+
     
     UIView* view2 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 120, 120)];
     view2.backgroundColor = [UIColor yellowColor];
@@ -58,6 +59,10 @@
     label.center = CGPointMake(100, 100);
     [view addSubview:label];
     [self.view addSubview:view];
+    
+    UIView* viewSec = [[UIView alloc] initWithFrame:CGRectMake(100, 200, 100, 300)];
+    viewSec.backgroundColor = [UIColor greenColor];
+    [self.view addSubview:viewSec];
 }
 
 - (void)didReceiveMemoryWarning {
