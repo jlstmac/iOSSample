@@ -9,8 +9,10 @@
 #import "ViewController.h"
 #import <objc/runtime.h>
 
-@interface ViewController ()
-
+@interface ViewController () <UITableViewDataSource,UITableViewDelegate>
+{
+    UITableView* tableView;
+}
 @end
 
 @implementation ViewController
@@ -63,6 +65,22 @@
     UIView* viewSec = [[UIView alloc] initWithFrame:CGRectMake(100, 200, 100, 300)];
     viewSec.backgroundColor = [UIColor greenColor];
     [self.view addSubview:viewSec];
+    
+    NSArray* arr = @[@"1",@"2",@"ab",@"Ad",@"ACC"];
+    NSArray* arrnum = @[@1,@2,@3,@4];
+
+    NSLog(@"%@",[arr valueForKeyPath:@"uppercaseString"]);
+//    NSNumber *sum = [arrnum valueForKeyPath:@"sum.self"];
+    NSLog(@"%@",[arrnum valueForKeyPath:@"@sum.floatValue"]);
+    NSNumber* number;
+    
+    
+    //tableview test
+    tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, screenRect.size.width, screenRect.size.height/2)];
+    tableView.delegate = self;
+    tableView.dataSource = self;
+    [self.view addSubview:tableView];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -70,6 +88,48 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - UITableViewDataSource
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    static NSString* identifer = @"reuse";
+    UITableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:identifer];
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifer];
+    }
+    
+    if ([indexPath row]%2 == 0) {
+        cell.backgroundColor = [UIColor yellowColor];
+    }else{
+        cell.backgroundColor = [UIColor redColor];
+
+    }
+    
+    return cell;
+}
+
+#pragma mark - UITableViewDelegate
+-(CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath{
+//    NSLog(@"estimated");
+    return 20;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+//    NSLog(@"height");
+
+    if ([indexPath row]%2 == 0) {
+        return 10;
+    }else{
+        return 30;
+    }
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 500;
+}
+
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 1;
+}
 @end
 
 @implementation ViewController(PropertyTest)
