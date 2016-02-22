@@ -16,5 +16,6 @@
 @interface ViewController(PropertyTest)
 
 @property(nonatomic,strong) NSString* name;
+//@property(nonatomic) UITableView* tableView;
 
 @end
