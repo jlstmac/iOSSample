@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <objc/runtime.h>
+#import "SecondViewController.h"
 
 @interface ViewController () <UITableViewDataSource,UITableViewDelegate>
 {
@@ -129,6 +130,17 @@
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 1;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    SecondViewController* vc = SecondViewController.new;
+    [self.navigationController pushViewController:vc animated:YES];
+//    [self presentViewController:vc animated:YES completion:^{
+    
+//    }];
+//    [self addChildViewController:vc];
+//    [self.view addSubview:vc.view];
 }
 @end
 

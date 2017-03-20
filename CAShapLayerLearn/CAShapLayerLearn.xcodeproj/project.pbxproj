@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E90478EF1D34DE2300BCC635 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E90478EE1D34DE2300BCC635 /* main.m */; };
+		E90478F21D34DE2300BCC635 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E90478F11D34DE2300BCC635 /* AppDelegate.m */; };
+		E90478F51D34DE2300BCC635 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90478F41D34DE2300BCC635 /* ViewController.m */; };
+		E90478F81D34DE2300BCC635 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90478F61D34DE2300BCC635 /* Main.storyboard */; };
+		E90478FA1D34DE2300BCC635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90478F91D34DE2300BCC635 /* Assets.xcassets */; };
+		E90478FD1D34DE2300BCC635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90478FB1D34DE2300BCC635 /* LaunchScreen.storyboard */; };
+		E90479081D34DE2300BCC635 /* CAShapLayerLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E90479071D34DE2300BCC635 /* CAShapLayerLearnTests.m */; };
+		E90479131D34DE2300BCC635 /* CAShapLayerLearnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E90479121D34DE2300BCC635 /* CAShapLayerLearnUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E90479041D34DE2300BCC635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E90478E21D34DE2300BCC635 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E90478E91D34DE2300BCC635;
+			remoteInfo = CAShapLayerLearn;
+		};
+		E904790F1D34DE2300BCC635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E90478E21D34DE2300BCC635 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E90478E91D34DE2300BCC635;
+			remoteInfo = CAShapLayerLearn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E90478EA1D34DE2300BCC635 /* CAShapLayerLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAShapLayerLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90478EE1D34DE2300BCC635 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E90478F01D34DE2300BCC635 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E90478F11D34DE2300BCC635 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E90478F31D34DE2300BCC635 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E90478F41D34DE2300BCC635 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E90478F71D34DE2300BCC635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E90478F91D34DE2300BCC635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E90478FC1D34DE2300BCC635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E90478FE1D34DE2300BCC635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E90479031D34DE2300BCC635 /* CAShapLayerLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAShapLayerLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90479071D34DE2300BCC635 /* CAShapLayerLearnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapLayerLearnTests.m; sourceTree = "<group>"; };
+		E90479091D34DE2300BCC635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E904790E1D34DE2300BCC635 /* CAShapLayerLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAShapLayerLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90479121D34DE2300BCC635 /* CAShapLayerLearnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapLayerLearnUITests.m; sourceTree = "<group>"; };
+		E90479141D34DE2300BCC635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E90478E71D34DE2300BCC635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90479001D34DE2300BCC635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E904790B1D34DE2300BCC635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E90478E11D34DE2300BCC635 = {
+			isa = PBXGroup;
+			children = (
+				E90478EC1D34DE2300BCC635 /* CAShapLayerLearn */,
+				E90479061D34DE2300BCC635 /* CAShapLayerLearnTests */,
+				E90479111D34DE2300BCC635 /* CAShapLayerLearnUITests */,
+				E90478EB1D34DE2300BCC635 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E90478EB1D34DE2300BCC635 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E90478EA1D34DE2300BCC635 /* CAShapLayerLearn.app */,
+				E90479031D34DE2300BCC635 /* CAShapLayerLearnTests.xctest */,
+				E904790E1D34DE2300BCC635 /* CAShapLayerLearnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E90478EC1D34DE2300BCC635 /* CAShapLayerLearn */ = {
+			isa = PBXGroup;
+			children = (
+				E90478F01D34DE2300BCC635 /* AppDelegate.h */,
+				E90478F11D34DE2300BCC635 /* AppDelegate.m */,
+				E90478F31D34DE2300BCC635 /* ViewController.h */,
+				E90478F41D34DE2300BCC635 /* ViewController.m */,
+				E90478F61D34DE2300BCC635 /* Main.storyboard */,
+				E90478F91D34DE2300BCC635 /* Assets.xcassets */,
+				E90478FB1D34DE2300BCC635 /* LaunchScreen.storyboard */,
+				E90478FE1D34DE2300BCC635 /* Info.plist */,
+				E90478ED1D34DE2300BCC635 /* Supporting Files */,
+			);
+			path = CAShapLayerLearn;
+			sourceTree = "<group>";
+		};
+		E90478ED1D34DE2300BCC635 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E90478EE1D34DE2300BCC635 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E90479061D34DE2300BCC635 /* CAShapLayerLearnTests */ = {
+			isa = PBXGroup;
+			children = (
+				E90479071D34DE2300BCC635 /* CAShapLayerLearnTests.m */,
+				E90479091D34DE2300BCC635 /* Info.plist */,
+			);
+			path = CAShapLayerLearnTests;
+			sourceTree = "<group>";
+		};
+		E90479111D34DE2300BCC635 /* CAShapLayerLearnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E90479121D34DE2300BCC635 /* CAShapLayerLearnUITests.m */,
+				E90479141D34DE2300BCC635 /* Info.plist */,
+			);
+			path = CAShapLayerLearnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E90478E91D34DE2300BCC635 /* CAShapLayerLearn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90479171D34DE2300BCC635 /* Build configuration list for PBXNativeTarget "CAShapLayerLearn" */;
+			buildPhases = (
+				E90478E61D34DE2300BCC635 /* Sources */,
+				E90478E71D34DE2300BCC635 /* Frameworks */,
+				E90478E81D34DE2300BCC635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAShapLayerLearn;
+			productName = CAShapLayerLearn;
+			productReference = E90478EA1D34DE2300BCC635 /* CAShapLayerLearn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E90479021D34DE2300BCC635 /* CAShapLayerLearnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E904791A1D34DE2300BCC635 /* Build configuration list for PBXNativeTarget "CAShapLayerLearnTests" */;
+			buildPhases = (
+				E90478FF1D34DE2300BCC635 /* Sources */,
+				E90479001D34DE2300BCC635 /* Frameworks */,
+				E90479011D34DE2300BCC635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E90479051D34DE2300BCC635 /* PBXTargetDependency */,
+			);
+			name = CAShapLayerLearnTests;
+			productName = CAShapLayerLearnTests;
+			productReference = E90479031D34DE2300BCC635 /* CAShapLayerLearnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E904790D1D34DE2300BCC635 /* CAShapLayerLearnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E904791D1D34DE2300BCC635 /* Build configuration list for PBXNativeTarget "CAShapLayerLearnUITests" */;
+			buildPhases = (
+				E904790A1D34DE2300BCC635 /* Sources */,
+				E904790B1D34DE2300BCC635 /* Frameworks */,
+				E904790C1D34DE2300BCC635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E90479101D34DE2300BCC635 /* PBXTargetDependency */,
+			);
+			name = CAShapLayerLearnUITests;
+			productName = CAShapLayerLearnUITests;
+			productReference = E904790E1D34DE2300BCC635 /* CAShapLayerLearnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E90478E21D34DE2300BCC635 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "jlstmac@gmail.com";
+				TargetAttributes = {
+					E90478E91D34DE2300BCC635 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E90479021D34DE2300BCC635 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E90478E91D34DE2300BCC635;
+					};
+					E904790D1D34DE2300BCC635 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E90478E91D34DE2300BCC635;
+					};
+				};
+			};
+			buildConfigurationList = E90478E51D34DE2300BCC635 /* Build configuration list for PBXProject "CAShapLayerLearn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E90478E11D34DE2300BCC635;
+			productRefGroup = E90478EB1D34DE2300BCC635 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E90478E91D34DE2300BCC635 /* CAShapLayerLearn */,
+				E90479021D34DE2300BCC635 /* CAShapLayerLearnTests */,
+				E904790D1D34DE2300BCC635 /* CAShapLayerLearnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E90478E81D34DE2300BCC635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90478FD1D34DE2300BCC635 /* LaunchScreen.storyboard in Resources */,
+				E90478FA1D34DE2300BCC635 /* Assets.xcassets in Resources */,
+				E90478F81D34DE2300BCC635 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90479011D34DE2300BCC635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E904790C1D34DE2300BCC635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E90478E61D34DE2300BCC635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90478F51D34DE2300BCC635 /* ViewController.m in Sources */,
+				E90478F21D34DE2300BCC635 /* AppDelegate.m in Sources */,
+				E90478EF1D34DE2300BCC635 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90478FF1D34DE2300BCC635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90479081D34DE2300BCC635 /* CAShapLayerLearnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E904790A1D34DE2300BCC635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90479131D34DE2300BCC635 /* CAShapLayerLearnUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E90479051D34DE2300BCC635 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E90478E91D34DE2300BCC635 /* CAShapLayerLearn */;
+			targetProxy = E90479041D34DE2300BCC635 /* PBXContainerItemProxy */;
+		};
+		E90479101D34DE2300BCC635 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E90478E91D34DE2300BCC635 /* CAShapLayerLearn */;
+			targetProxy = E904790F1D34DE2300BCC635 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E90478F61D34DE2300BCC635 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E90478F71D34DE2300BCC635 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E90478FB1D34DE2300BCC635 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E90478FC1D34DE2300BCC635 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E90479151D34DE2300BCC635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E90479161D34DE2300BCC635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E90479181D34DE2300BCC635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CAShapLayerLearn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jlstmac-gmail.com.CAShapLayerLearn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E90479191D34DE2300BCC635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CAShapLayerLearn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jlstmac-gmail.com.CAShapLayerLearn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E904791B1D34DE2300BCC635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CAShapLayerLearnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jlstmac-gmail.com.CAShapLayerLearnTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAShapLayerLearn.app/CAShapLayerLearn";
+			};
+			name = Debug;
+		};
+		E904791C1D34DE2300BCC635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CAShapLayerLearnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jlstmac-gmail.com.CAShapLayerLearnTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAShapLayerLearn.app/CAShapLayerLearn";
+			};
+			name = Release;
+		};
+		E904791E1D34DE2300BCC635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CAShapLayerLearnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jlstmac-gmail.com.CAShapLayerLearnUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CAShapLayerLearn;
+			};
+			name = Debug;
+		};
+		E904791F1D34DE2300BCC635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CAShapLayerLearnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jlstmac-gmail.com.CAShapLayerLearnUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CAShapLayerLearn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E90478E51D34DE2300BCC635 /* Build configuration list for PBXProject "CAShapLayerLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90479151D34DE2300BCC635 /* Debug */,
+				E90479161D34DE2300BCC635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E90479171D34DE2300BCC635 /* Build configuration list for PBXNativeTarget "CAShapLayerLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90479181D34DE2300BCC635 /* Debug */,
+				E90479191D34DE2300BCC635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E904791A1D34DE2300BCC635 /* Build configuration list for PBXNativeTarget "CAShapLayerLearnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E904791B1D34DE2300BCC635 /* Debug */,
+				E904791C1D34DE2300BCC635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E904791D1D34DE2300BCC635 /* Build configuration list for PBXNativeTarget "CAShapLayerLearnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E904791E1D34DE2300BCC635 /* Debug */,
+				E904791F1D34DE2300BCC635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E90478E21D34DE2300BCC635 /* Project object */;
+}
